@@ -1,15 +1,4 @@
 #!/bin/bash
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
 #PERINGATAN : KESALAHAN ATAU KEJAHATAN ADALAH TANGGUNG JAWAB DARI PEMAKAI
 #GUNAKAN TOOLS UNTUK KEBAIKAN JANGAN DISALAH GUNAKAN :)
 troll(){
@@ -34,14 +23,14 @@ load(){
 get_sms=$(curl -s http://zlucifer.com/api/hackbae.php?request=sms)
 get_call=$(curl -s http://zlucifer.com/api/hackbae.php?request=call)
 mulai (){
-    echo "Gunakan Troll Project Lagi?"
+    echo "Gunakan bulu Project Lagi?"
     echo "y/n?"
     echo
     read lagi
     if [ $lagi = "y" ]; then
             spam
     else
-            echo "Terimakasih sudah menggunakan Troll project"
+            echo "Terimakasih sudah menggunakan jimat ini"
     fi
 }
 #spam
@@ -49,18 +38,18 @@ spam(){
     clear
     troll
     echo
-    echo "[1] Spam SMS"
-    echo "[2] Spam Telp"
-    echo "[3] Close Troll Project"
+    echo "[1] Jimat SMS"
+    echo "[2] Via Telp"
+    echo "[3] Tutup Jimat ajalah"
     echo
     echo "1/2/3?"
     read pilih
     if [ $pilih = "1" ]; then
-            echo "Troll Spam SMS"
+            echo "Jimat Spam SMS"
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 0812345678
+            echo contoh 085373045750
             read target # masukin no telp
             echo
             echo "Berapa sms yang mau dikirim?"
@@ -89,11 +78,11 @@ spam(){
             fi
         mulai
     elif [ $pilih = "2" ]; then
-            echo "Troll Spam Call"
+            echo "Via Call"
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 0812345678
+            echo contoh 085373045750
             read target # masukin no telp
             echo
             echo "Gunakan API Grab/Toped?"
