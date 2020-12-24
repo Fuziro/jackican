@@ -1,4 +1,4 @@
-# jackican
+# jackican - SpamSMS
 ----------------------------------------------echo>>
 SPAM BRUTAL SMS, CALL, WA
 Installasi:
