@@ -115,7 +115,7 @@ while True:
 			for i in range(lop):
 				main.prosehat(num)
 		else:
-			print("?: Anda Bauk Kodok ya!?")
+			print("?: Anda Buta!?")
 
 		lgi=input("\n[?] Coba lagi (Y/n) ")
 		if lgi.lower() == 'n':
