@@ -76,13 +76,13 @@ class docter:
 		if "token" in req.text:
 			print("[•] Mantap Bro")
 			for x in range(60):
-				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
+				print(end=f"\r>> Sleep {15-(x+1)}s << ",flush=True)
 				time.sleep(1)
 			print()
 		else:
 			print(f"[-] Pantek Lah {req.text}")
 			for x in range(60):
-				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
+				print(end=f"\r>> Sleep {15-(x+1)}s << ",flush=True)
 				time.sleep(1)
 			print()
 
@@ -90,8 +90,8 @@ while True:
 	try:
 		os.system('clear')
 		print("""
-		[ Tanya Dokter OTP ]
-		 - By Avindeso -
+		[ Programmer Indonesia ]
+		    - By Avindeso -
 
 [ Spam List ]
 1. Alodokter.com
@@ -100,7 +100,7 @@ while True:
 	""")
 		pil=int(input("> Pilih: "))
 		print("="*25)
-		num=input("[?] Nomor Target: ")
+		num=input("[?] Nomor korban: ")
 		lop=int(input("[?] Looping: "))
 		print()
 
@@ -115,10 +115,10 @@ while True:
 			for i in range(lop):
 				main.prosehat(num)
 		else:
-			print("?: Anda Buta!?")
+			print("?: Salah klik tu wak haris!?")
 
-		lgi=input("\n[?] Coba lagi (Y/n) ")
+		lgi=input("\n[?] Coba lagi wak haris (Y/n) ")
 		if lgi.lower() == 'n':
-			sys.exit('GOODBYE :*')
+			sys.exit('udahan lah :*')
 	except Exception as Err:
 		sys.exit(Err)
